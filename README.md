@@ -20,9 +20,9 @@ python -m http.server 8000 --directory dist
 
 打开 http://localhost:8000 。由于题库通过 fetch 加载，请使用本地服务器，不要直接双击 HTML。
 
-## 图片同步状态
+## 题库文件
 
-网页源代码和题库元数据已保存。`dist/assets/` 的154张题目及解析图片尚待完成同步，当前仓库副本会缺少这些图片。已有在线授课网页仍可使用。
+37道题目与解析的154张图片已完整同步至 `dist/assets/`。网页源代码、题库元数据和图片均已保存。
 
 在线网页：https://shenzhen-quadratic-practice.kind-morel-5231.chatgpt.site
 
